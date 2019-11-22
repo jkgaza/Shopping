@@ -41,6 +41,10 @@ let itemsToAdd = [
     ("toiletpaper", 7)];    
  let shoppingCart = [...shoppingCart, ...itemsToAdd];
     console.log(shoppingCart);
+/** I'm not quite sure what I'm doing wrong here. 
+ * Should itemsToAdd be outside the function? 
+ * Should shoppingCart be inside the function? **/
+
 }
 
 function removeItem(itemName){
