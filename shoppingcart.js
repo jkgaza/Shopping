@@ -22,3 +22,7 @@
             i.Prints the total of all items from the shoppingCart array. 
                 This includes the a 6% tax. Do not use a for loop. Use a for..of loop .
 */
+
+let shoppingCart = [];
+let itemList = [milk, bread, eggs, yogurt, pizzaRolls];
+
