@@ -24,5 +24,26 @@
 */
 
 let shoppingCart = [];
-let itemList = [milk, bread, eggs, yogurt, pizzaRolls];
+let itemList = [
+    (milk, 3), 
+    (bread, 4), 
+    (eggs, 2), 
+    (yogurt, 5), 
+    (pizzaRolls, 6)];
+
+addItem(itemName, itemPrice){
+
+};
+
+removeItem(itemName){
+
+};
+
+editItem(){
+
+};
+
+printTotal(){
+
+};
 
