@@ -32,13 +32,13 @@ let itemList = [
     ("yogurt", 5), 
     ("pizzaRolls", 6)]; //DON'T UTILIZE 
 
+function addItem(itemName, itemPrice){
 let itemsToAdd = [
     ("coffee", 4), 
     ("rice", 3), 
-    ("mouthwash", 6)];
-
-function addItem(itemName, itemPrice);{
-    shoppingCart = [...shoppingCart, ...itemsToAdd];
+    ("mouthwash", 6)];    
+ let shoppingCart = [...shoppingCart, ...itemsToAdd];
+    console.log(shoppingCart);
 }
 
 //function removeItem(itemName);{
