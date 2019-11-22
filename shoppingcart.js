@@ -30,20 +30,25 @@ let itemList = [
     (eggs, 2), 
     (yogurt, 5), 
     (pizzaRolls, 6)];
+let itemsToAdd = [
+    ...itemList, 
+    (coffee, 4), 
+    (rice, 3), 
+    (mouthwash, 6)];
 
-addItem(itemName, itemPrice){
-    itemList.splice(6, 0, (gFCookies, 7), (beans, 2), (rice, 4));
-}
+addItem(itemName, itemPrice);{
+    console.log(itemsToAdd);
+};
 
-removeItem(itemName){
+removeItem(itemName);{
+    itemList.operator()
+};
+
+editItem();{
 
 };
 
-editItem(){
-
-};
-
-printTotal(){
+printTotal();{
 
 };
 
