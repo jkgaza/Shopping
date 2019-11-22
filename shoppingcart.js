@@ -24,31 +24,32 @@
 */
 
 let shoppingCart = [];
+
 let itemList = [
-    (milk, 3), 
-    (bread, 4), 
-    (eggs, 2), 
-    (yogurt, 5), 
-    (pizzaRolls, 6)];
+    ("milk", 3), 
+    ("bread", 4), 
+    ("eggs", 2), 
+    ("yogurt", 5), 
+    ("pizzaRolls", 6)]; //DON'T UTILIZE 
+
 let itemsToAdd = [
-    ...shoppingCart, 
-    (coffee, 4), 
-    (rice, 3), 
-    (mouthwash, 6)];
+    ("coffee", 4), 
+    ("rice", 3), 
+    ("mouthwash", 6)];
 
-addItem(itemName, itemPrice);{
-    console.log(shoppingCart);
-};
+function addItem(itemName, itemPrice);{
+    shoppingCart = [...shoppingCart, ...itemsToAdd];
+}
 
-// removeItem(itemName);{
-//     itemList.operator()
-// };
+//function removeItem(itemName);{
+//     itemList.operator();
+// }
 
-// editItem();{
+//function editItem();{
 
-// };
+// }
 
-// printTotal();{
+//function printTotal();{
 
-// };
+// }
 
