@@ -36,20 +36,23 @@ function addItem(itemName, itemPrice){
 let itemsToAdd = [
     ("coffee", 4), 
     ("rice", 3), 
-    ("mouthwash", 6)];    
+    ("mouthwash", 6),
+    ("toothpaste", 5),
+    ("toiletpaper", 7)];    
  let shoppingCart = [...shoppingCart, ...itemsToAdd];
     console.log(shoppingCart);
 }
 
-//function removeItem(itemName);{
-//     itemList.operator();
-// }
+function removeItem(itemName){
+    // itemList.operator();
+    console.log(shoppingCart.slice(2, 3));
+}
 
-//function editItem();{
+function editItem(){
 
-// }
+}
 
-//function printTotal();{
+function printTotal(){
 
-// }
+}
 
