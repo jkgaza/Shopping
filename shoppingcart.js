@@ -31,24 +31,24 @@ let itemList = [
     (yogurt, 5), 
     (pizzaRolls, 6)];
 let itemsToAdd = [
-    ...itemList, 
+    ...shoppingCart, 
     (coffee, 4), 
     (rice, 3), 
     (mouthwash, 6)];
 
 addItem(itemName, itemPrice);{
-    console.log(itemsToAdd);
+    console.log(shoppingCart);
 };
 
-removeItem(itemName);{
-    itemList.operator()
-};
+// removeItem(itemName);{
+//     itemList.operator()
+// };
 
-editItem();{
+// editItem();{
 
-};
+// };
 
-printTotal();{
+// printTotal();{
 
-};
+// };
 
