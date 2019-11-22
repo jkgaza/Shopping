@@ -32,8 +32,8 @@ let itemList = [
     (pizzaRolls, 6)];
 
 addItem(itemName, itemPrice){
-
-};
+    itemList.splice(6, 0, (gFCookies, 7), (beans, 2), (rice, 4));
+}
 
 removeItem(itemName){
 
