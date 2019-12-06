@@ -1,8 +1,6 @@
 "use strict";
 /**@todo Create a simple shopping cart application with JavaScript
  * 
- * Do not use Array.push, Array.pop Array.splice, Array.unshift, Array.shift
- * Use spread operator and slice
  * 
  * @todo Make shoppingcart.js  which will contain all of the code.
     ● Initialize an empty array in a variable called shoppingCart.
