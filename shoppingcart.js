@@ -46,12 +46,14 @@ function editItem(itemName, newPrice){
 }
 
 function printTotal(){
-
+    console.log(shoppingCart.reduce((sum, item) => { return sum + item.price }, 0));
 }
 
 addItem("chips", 1.25);
 console.log(shoppingCart);
 editItem("chips", 2);
 console.log(shoppingCart);
+printTotal();
 removeItem("chips");
 console.log(shoppingCart);
+printTotal();
