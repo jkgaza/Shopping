@@ -64,8 +64,12 @@ function printTotal(){
 }
 
 addItem("chips", 1.25);
+addItem("cough medicine", 8);
+addItem("bananas", 4.25);
 console.log(shoppingCart);
 editItem("chips", 2);
+editItem("cough medicine", 5);
+editItem("bananas", 3);
 console.log(shoppingCart);
 printTotal();
 removeItem("chips");
