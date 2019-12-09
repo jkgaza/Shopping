@@ -24,34 +24,50 @@
 let shoppingCart = [];
 
 let itemList = [
-    {name: "milk", price: 3}];
+    {name: "milk", price: 3},
+    {name: "eggs", price: 2},
+    {name: "bread", price: 4},
+    {name: "toothpaste", price: 6},
+    {name: "carrots", price: 5},
+    {name: "toilet paper", price: 7}];
    
 
 function addItem(itemName, itemPrice){
     let newItem = {name: itemName, price: itemPrice};
+    
     shoppingCart.push(newItem);
 }  
 
 function removeItem(itemName){
    let newShoppingCart = shoppingCart.filter( item => {item.name !== itemName});
+
    shoppingCart = newShoppingCart;
     
 }
 
 function editItem(itemName, newPrice){
     let index = shoppingCart.findIndex(item => item.name === itemName);
+
     if (index != -1) {
         shoppingCart[index].price = newPrice;  
     }   
 }
 
 function printTotal(){
+    let sum = 0;
 
+    for (const item of shoppingCart) {
+        sum += item.price;
+      }
+
+    console.log(sum);
 }
 
 addItem("chips", 1.25);
 console.log(shoppingCart);
 editItem("chips", 2);
 console.log(shoppingCart);
+printTotal();
 removeItem("chips");
 console.log(shoppingCart);
+
