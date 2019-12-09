@@ -63,6 +63,16 @@ function printTotal(){
     console.log(sum);
 }
 
+/**funtion printTotal(){
+ * let sum = 0;
+ * for(let i = 0; i < items.length; i++){
+ * const item = items[i];
+ * 
+ * sum += item.price}
+ * 
+ * console.log(sum);
+ * } */
+
 addItem("chips", 1.25);
 addItem("cough medicine", 8);
 addItem("bananas", 4.25);
